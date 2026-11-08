@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "payalert",
+  "version": "1.0.0",
+  "name": "Pay Alert",
+  "description": "Shows an animated popup in the top right when someone pays you.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.payalert.PayAlertClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
